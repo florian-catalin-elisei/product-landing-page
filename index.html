@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0"
+      name="viewport" />
+    <title>Product Landing Page</title>
+    <link
+      href="./styles.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        alt="Logo"
+        id="header-img"
+        src="./logo.webp" />
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a
+              class="nav-link"
+              href="#features"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link"
+              href="#video-section"
+              >Video</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link"
+              href="#pricing"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-link"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="features">
+      <h2>Product Features</h2>
+      <p>Discover the amazing features that make our product stand out.</p>
+      <ul>
+        <li>Feature 1: High performance and reliability.</li>
+        <li>Feature 2: User-friendly interface and easy navigation.</li>
+        <li>Feature 3: Seamless integration with existing tools.</li>
+      </ul>
+    </section>
+    <section id="video-section">
+      <h2>Watch Our Intro Video</h2>
+      <video
+        controls
+        id="video">
+        <source
+          src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+          type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section id="pricing">
+      <h2>Pricing Plans</h2>
+      <p>Choose the plan that fits your needs:</p>
+      <ul>
+        <li>Basic: $9.99/month</li>
+        <li>Pro: $19.99/month</li>
+        <li>Enterprise: Contact us for pricing</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        id="form">
+        <input
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          type="email" />
+        <input
+          id="submit"
+          type="submit"
+          value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
